@@ -1,0 +1,108 @@
+div {
+  text-align: center;
+  color: #bdff5e
+}
+
+
+img {
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: Abel;
+  background-image: url(images/bbb.jpeg);
+}
+
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding:10px;
+  border:10px solid #2dd3ff;
+
+}
+
+
+
+
+#whrhs {
+    color: #ee5fdc;
+    text-decoration: none
+
+}
+
+#whrhs:hover {
+  color: #ff9526;
+  background-image: url(images/blue.jpeg);
+  background-repeat: repeat;
+}
+
+
+
+
+table th {
+
+  padding: 2px;
+  text-align: left;
+  border-bottom: 5px solid #55e63e;
+  border: 5px solid #55e63e;
+  background-color: white;
+
+}
+
+table td {
+  border-bottom: 3px solid #55e63e;
+  border: 3px solid #55e63e;
+  background-color: white;
+
+}
+
+.table {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#roundtop {
+  text-decoration: none;
+  color: #ee5fdc;
+}
+
+#roundtop:hover {
+color: #ff9526;
+background-color: #c0ec13;
+}
+
+#office {
+  text-decoration: none;
+  color: #ee5fdc;
+}
+
+#office:hover {
+    color: #ff9526;
+    background-color: #43f1e1;
+}
+
+ul, li {
+text-align: center;
+color: #bdff5e;
+list-style: inside;
+
+
+
+}
+
+
+address {
+  text-align: center;
+  color: #bdff5e
+
+}
+
+.mail {
+  text-decoration: none;
+  color: #ffc121;
+}
