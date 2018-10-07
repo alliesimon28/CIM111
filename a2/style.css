@@ -1,14 +1,22 @@
-div {
-  text-align: center;
-  color: #bdff5e
+
+#name {
+  font-weight: bold;
+  font-size: 75px;
 }
 
+div {
+  text-align: center;
+  color: #bdff5e;
+}
+
+/* the img element below is the styling of the gif I inserted*/
 
 img {
   width: 70px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 body {
@@ -18,29 +26,26 @@ body {
 
 .picture {
   display: block;
+  margin-top: 50px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
   padding:10px;
-  border:10px solid #2dd3ff;
+  padding-top: 10px;
+  border:20px solid #2dd3ff;
 
 }
 
-
-
-
-#whrhs {
-    color: #ee5fdc;
-    text-decoration: none
-
+.about {
+  font-weight: inherit;
+  font-size: 50px;
 }
 
-#whrhs:hover {
-  color: #ff9526;
-  background-image: url(images/blue.jpeg);
-  background-repeat: repeat;
+.info {
+  font-size: 20px;
+  margin-top: 15px;
 }
-
 
 
 
@@ -54,6 +59,8 @@ table th {
 
 }
 
+/* never used the individual td and tr tags before. Never used background-color tag for hover before or text-decoration tag to remove underline*/
+
 table td {
   border-bottom: 3px solid #55e63e;
   border: 3px solid #55e63e;
@@ -61,19 +68,9 @@ table td {
 
 }
 
-.table {
+table {
   margin-left:auto;
   margin-right:auto;
-}
-
-#roundtop {
-  text-decoration: none;
-  color: #ee5fdc;
-}
-
-#roundtop:hover {
-color: #ff9526;
-background-color: #c0ec13;
 }
 
 #office {
@@ -90,19 +87,26 @@ ul, li {
 text-align: center;
 color: #bdff5e;
 list-style: inside;
+}
 
+ul{
+  list-style-type: disc;
+  list-style-position: inside;
+}
 
-
+.list {
+  font-style: italic;
+  font-size: 20px;
 }
 
 
 address {
+  font-size: 20px;
   text-align: center;
-  color: #bdff5e
-
+  color: #bdff5e;
 }
 
-.mail {
-  text-decoration: none;
-  color: #ffc121;
-}
+
+
+/* not all of my classes were used more than once because some of them were specific to a certain area of my resume, but some were used more than once*/
+/* My hover tag used in my email address is NOT clickable, just can hover because I cannot figure out how to link to actual email*/
