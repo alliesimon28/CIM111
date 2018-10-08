@@ -1,0 +1,112 @@
+
+#name {
+  font-weight: bold;
+  font-size: 75px;
+}
+
+div {
+  text-align: center;
+  color: #bdff5e;
+}
+
+/* the img element below is the styling of the gif I inserted*/
+
+img {
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+body {
+  font-family: Abel;
+  background-image: url(images/bbb.jpeg);
+}
+
+.picture {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding:10px;
+  padding-top: 10px;
+  border:20px solid #2dd3ff;
+
+}
+
+.about {
+  font-weight: inherit;
+  font-size: 50px;
+}
+
+.info {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+
+
+table th {
+
+  padding: 2px;
+  text-align: left;
+  border-bottom: 5px solid #55e63e;
+  border: 5px solid #55e63e;
+  background-color: white;
+
+}
+
+/* never used the individual td and tr tags before. Never used background-color tag for hover before or text-decoration tag to remove underline*/
+
+table td {
+  border-bottom: 3px solid #55e63e;
+  border: 3px solid #55e63e;
+  background-color: white;
+
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#office {
+  text-decoration: none;
+  color: #ee5fdc;
+}
+
+#office:hover {
+    color: #ff9526;
+    background-color: #43f1e1;
+}
+
+ul, li {
+text-align: center;
+color: #bdff5e;
+list-style: inside;
+}
+
+ul{
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.list {
+  font-style: italic;
+  font-size: 20px;
+}
+
+
+address {
+  font-size: 20px;
+  text-align: center;
+  color: #bdff5e;
+}
+
+
+
+/* not all of my classes were used more than once because some of them were specific to a certain area of my resume, but some were used more than once*/
+/* My hover tag used in my email address is NOT clickable, just can hover because I cannot figure out how to link to actual email*/
