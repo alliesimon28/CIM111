@@ -42,8 +42,8 @@ body {
   padding: 50px;
   display: grid;
   justify-content: start;
-    align-content: center;
-  float: left;
+  align-content: center;
+
 
 
 
@@ -53,7 +53,7 @@ h1 {
   margin-top: 55px;
   font-family: 'Courgette', cursive;
   font-size: 115px;
-  padding-left: 70px;
+  padding-left: 50px;
   text-align: center;
 }
 
@@ -61,7 +61,7 @@ h6 {
   margin-top:5px;
   font-family: 'Bree Serif', bold;
   font-size: 70px;
-  padding-left: 70px;
+  padding-left: 50px;
   text-align: center;
 
 }
@@ -70,7 +70,6 @@ h6 {
   background-color:#ffffff;
   display: grid;
   align-items: center;
-  justify-items: center;
 	align-content: center;
   color: #000000;
 
@@ -78,9 +77,7 @@ h6 {
 }
 
 .about1 {
-  grid-area: about1
-  width: 400px;
-  height: 200px;
+  height: auto;
   border: #000000;
   padding-bottom: 100%;
     margin-bottom: -3.5%;
@@ -143,7 +140,7 @@ font-size: 24px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   grid-gap: 20px;
-  align-items: center
+  align-items: center;
 	color: #000000;
   font-size: 40px;
   padding-bottom: 20px;
@@ -172,94 +169,36 @@ font-size: 24px;
 /*Moving on to maps section*/
 
 h3 {
-  font-size: 75px;
-  font-family: 'Bree Serif', serif;
-  text-align: center;
+font-size: 75px;
+padding-top: 25px;
+text-shadow: -5px 0 white, 0 5px white, 5px 0 white, 0 -5px white;
 
 }
-
-.mapz {
-  grid-area: mapz;
-  left: 0;
-    line-height: 200px;
-    margin: auto;
-    margin-top: -100px;
-    position: absolute;
-    top: 10%;
-    width: 100%;
-
-}
-
-.maps {
-  grid-area: maps;
-}
-
-
 
 .about2 {
-  position: absolute;
-  background-color: #ffffff;
-  width: 500px;
-  height: 150px;
-  font-size: 22px;
-  top: 50%;
-  left: 50%;
-  margin: -200px 0 0 -150px;
-  grid-template-areas:
-  "maps maps"
-  "aboutmaps aboutmaps"
+  padding: 20px;
+
 }
 
-
-  .aboutmaps {
-    grid-area: aboutmaps;
-  }
-
-  .trails{
-  display: grid;
+.trails{
+	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  padding-left: 0px;
 }
 
 .trails img{
-  padding-top: 350px;
-	width: 328px;
-  height: 328px;
+  width: 450px;
+  height: 450px;
+  padding-top: 20px;
+
 }
 
 
 
 
-.trails h4:before, .trails h4:after{
-            	display: block;
-            	content: '';
-            	height: 10px;
-              background: #3e9df5;
-              padding-top: 10px;
-            }
-
-  .name{
-text-align: center;
-padding-top: 700px;
-padding-right: 880px;
-margin: 0px;
-            }
-
-
-
-.top2 {
-  grid-template-areas:
-  "mapz mapz"
-  "about2 about2"
-}
-
-
+/*Moving on to Transportation section*/
 h4 {
-  grid-template-areas:
   position: relative;
-  align-items: center;
-  justify-content: center;
   font-size: 75px;
   text-shadow: -5px 0 white, 0 5px white, 5px 0 white, 0 -5px white;
 
@@ -268,6 +207,7 @@ h4 {
 
 .transport {
   grid-template-columns: auto;
+
 }
 
 
@@ -281,11 +221,8 @@ h4 {
 }
 
 .to {
-  grid-template-areas: to;
   padding: 20px;
 }
-
-
 
 
 
@@ -294,36 +231,27 @@ h4 {
 @media (max-width: 992px){
 	.top{
 		grid-template-areas:
-		"ski about1 about1"
-		"ski about1 about1" }
+		"ski"
+		"ski" }
 
-.aboutmaps {
-  grid-template-areas:
-    "maps"
-    "aboutmaps"}
 
-    .top2 {
-      grid-template-areas:
-      "mapz mapz"
-      "about2 about2"
     }
+
+
+@media (max-width: 768px) {
+
+  .top{
+		grid-template-areas:
+		"ski"
+		"ski" }
+
 }
 
 
-
-
-  @media (max-width: 767px){
+  @media (max-width: 480px){
   	.top{
   		grid-template-areas:
   		"ski ski"
-  		"about1 about1"
-      "about1 about1"
-  	}
 
-    .top2 {
-      grid-template-areas:
-      "mapz"
-      "about2"
-      "about2"
-      "about2"
-    }
+
+  	}
