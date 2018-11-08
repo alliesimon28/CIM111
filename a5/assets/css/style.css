@@ -1,0 +1,58 @@
+body {
+  background-color: #98f930;
+}
+
+.galleryGuac{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+}
+
+img {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin-left: auto ;
+  margin-right: auto;
+
+}
+
+.hover-class {
+    position: relative;
+    left       : 30px;
+    width      : 50px;
+    height     : 50px;
+    background : yellow;
+}
+
+.sectionDirections {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+grid-gap: 20px;
+padding-top: 75px;
+}
+
+p {
+  font-size: 65px;
+  text-align: center;
+}
+
+.Step {
+  height: auto;
+	width: auto;
+	background-color: white;
+  color: black;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-size: cover;
+	background-position: bottom right;
+	border-style: solid;
+	border-color: black;
+  float: left;
+}
+
+ol {
+  text-align: center;
+  text-decoration: bold;
+  font-size: 20px;
+}
