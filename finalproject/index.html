@@ -8,13 +8,13 @@
   <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Orbitron:700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:900" rel="stylesheet">
-  <script type="text/javascript" src="assets/JS/project.js"></script>
-  <link rel="stylesheet" href="css/bootstrap.css">
+<!--  <link rel="stylesheet" href="css/bootstrap.css"> -->
  <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css>
 
 
+
   <body>
+
 
   <!-- Navigation -->
   <nav class="navigation">
@@ -22,6 +22,7 @@
     <a href="comedy.html" class="tab">Comedy</a>
     <a href="drama.html" class="tab">Drama</a>
     <a href="action.html" class="tab">Action</a>
+    <a href="updates.html" class="tab2">Get Updated!</a>
   </nav>
 
   <!-- Slide Show -->
@@ -31,6 +32,8 @@
     <img class="mySlides" src="assets/images/creed.jpg">
     <img class="mySlides" src="assets/images/instantfamily.jpg">
   </section>
+
+
 
   <div class="grid-container">
   <div class="item1">MovieGroove</div>
@@ -45,22 +48,6 @@
   </div>
 </div>
 
-<script>
-  var myIndex = 0;
-  carousel();
-
-  function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-         x[i].style.display = "none";
-      }
-      myIndex++;
-      if (myIndex > x.length) {myIndex = 1};
-      x[myIndex-1].style.display = "block";
-      setTimeout(carousel, 3000);
-  }
-</script>
 
   </body>
   </html>
@@ -71,8 +58,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 <!-- Putting this JS language in the html code was the only way the library would work-->
+<script type="text/javascript" src="assets/JS/project.js"></script>
+
+
 <script>
-    baguetteBox.run('.tz-gallery');
+  //  baguetteBox.run('.tz-gallery');
 </script>
 
 
