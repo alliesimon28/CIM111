@@ -8,11 +8,10 @@
 
 }
 
-.button:hover {
+.button1:hover {
       background-color: #008CBA;
       color: white;
  }
- 
 .mySlides {
     width: 100%;
 }

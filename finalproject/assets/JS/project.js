@@ -16,22 +16,11 @@ $(document).ready(function() {
   }
 
   });
-  function random_item(items)
-{
+  var array = ["Venom" , "Halloween" , "Killer Kate" , "Monster Party" , "Suspira" , "Instant Family" , "The Grinch" , "Night School" , "Green Book" , "The Long Dumb Road" , "A Star is Born" , "A Beautiful Boy" , "Bohemian Rhapsody" , "Boy Erased" , "Mary Queen of Scots" , "Robin Hood"];
 
-return items[Math.floor(Math.random()*items.length)];
+  var randomAnswer = array[Math.floor(Math.random() * array.length)];
 
-}
-
-const items = ["Venom" , "Halloween" , "Killer Kate" , "Monster Party" , "Suspira" , "Instant Family" , "The Grinch" , "Night School" , "Green Book" , "The Long Dumb Road" , "A Star is Born" , "A Beautiful Boy" , "Bohemian Rhapsody" , "Boy Erased" , "Mary Queen of Scots" , "Robin Hood"];
-console.log("And the best movie award goes to: " + random_item(items));
-
-//var randomValue = myArray[Math.floor(Math.random() * myArray.length)];
-
-//var movies = ["Venom", + "Halloween", + "Killer Kate", + "Monster Party", + "Suspira", "Instant Family", + "The Grinch", "Night School", "Green Book", "The Long Dumb Road", "A Star is Born", "A Beautiful Boy", "Bohemian Rhapsody", "Boy Erased", "Mary Queen of Scots", "Robin Hood" "Creed II", "The Girl in the Spider's Web", "Widows"];
-
-//var show = movies[Math.floor(Math.random() * movies.length)];
-
+  console.log("and the best movie award goes to: " + randomAnswer);
 
 
 
@@ -39,3 +28,14 @@ console.log("And the best movie award goes to: " + random_item(items));
   function goBack() {
     window.history.back()
   }
+
+  window.addEventListener("keydown", event => {
+    if (event.key == "v") {
+      document.body.style.background = "aqua";
+    }
+  });
+  window.addEventListener("keyup", event => {
+    if (event.key == "v") {
+      document.body.style.background = "";
+    }
+  });
